@@ -6,5 +6,16 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void btnsomar_Click(object sender, EventArgs e)
+        {
+            double numero1 = Convert.ToDouble(txt1.Text);
+            double numero2 = Convert.ToDouble(txt2.Text);
+            
+
+            // Realizar a soma dos números e exibir o resultado
+            lblresultado.Text = ( numero1 + numero2).ToString();
+
+        }
     }
 }

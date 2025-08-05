@@ -82,6 +82,7 @@
             btnsomar.TabIndex = 4;
             btnsomar.Text = "Somar";
             btnsomar.UseVisualStyleBackColor = true;
+            btnsomar.Click += btnsomar_Click;
             // 
             // btnsubtrair
             // 
