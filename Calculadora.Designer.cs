@@ -92,6 +92,7 @@
             btnsubtrair.TabIndex = 5;
             btnsubtrair.Text = "Subtrair";
             btnsubtrair.UseVisualStyleBackColor = true;
+            btnsubtrair.Click += btnsubtrair_Click;
             // 
             // btnmultiplicar
             // 
