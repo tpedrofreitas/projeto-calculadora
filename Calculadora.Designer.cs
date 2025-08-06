@@ -112,6 +112,7 @@
             btndividir.TabIndex = 7;
             btndividir.Text = "Dividir";
             btndividir.UseVisualStyleBackColor = true;
+            btndividir.Click += btndividir_Click;
             // 
             // lblresultado
             // 
