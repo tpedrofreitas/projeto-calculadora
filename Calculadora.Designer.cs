@@ -102,6 +102,7 @@
             btnmultiplicar.TabIndex = 6;
             btnmultiplicar.Text = "Multiplicar";
             btnmultiplicar.UseVisualStyleBackColor = true;
+            btnmultiplicar.Click += btnmultiplicar_Click;
             // 
             // btndividir
             // 
